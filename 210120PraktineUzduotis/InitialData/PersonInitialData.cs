@@ -9,7 +9,7 @@ namespace _210120PraktineUzduotis.InitialData
 {
     public class PersonInitialData
     {
-        public LinkedList<Person> DataSeed => new List<Person>
+        public List<Person> DataSeed => new List<Person>
         {
             new Person {FirstName = "Jonas", LastName = "Jonaitis", BirthDate = new DateTime(1999,2,3) },
             new Person {FirstName = "Jonas", LastName = "Berankis", BirthDate = new DateTime(1999,2,3) },
